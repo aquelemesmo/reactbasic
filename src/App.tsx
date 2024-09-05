@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import Algo from "./components/Algo";
 import Param from "./components/AlgoComParametro";
@@ -9,8 +8,6 @@ import List from "./components/ListRender";
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 import RouteTest from "./roteador/Roteador";
 import Footer from "./components/Footer";
-
-const dois = 1 + 1;
 
 function App() {
     return (

@@ -10,7 +10,7 @@ function List() {
     return (
         <>
             <h1>Lista de lista</h1>
-            <ul>
+            <ul style={{listStyle: "none"}}>
             {
                 arrayExample.map((item, index) => (
                     <li key={index}>{item}</li>
