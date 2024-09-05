@@ -1,5 +1,11 @@
+:root {
+  --bg: #efefef
+}
+
+
 .App {
   text-align: center;
+  background-color: var(--bg);
 }
 
 .App-logo {
